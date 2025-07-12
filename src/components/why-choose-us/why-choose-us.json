@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_why_choose_us_why_choose_uses",
+  "info": {
+    "displayName": "Why choose us",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "gem",
+        "tool",
+        "users"
+      ],
+      "required": true
+    }
+  }
+}

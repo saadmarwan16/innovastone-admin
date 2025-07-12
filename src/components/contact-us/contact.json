@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_contact_us_contacts",
+  "info": {
+    "displayName": "Contact"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "map",
+        "phone",
+        "mail"
+      ],
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "link_text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

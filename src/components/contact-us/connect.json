@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_contact_us_connects",
+  "info": {
+    "displayName": "Connect"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "instagram",
+        "linkedin"
+      ],
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

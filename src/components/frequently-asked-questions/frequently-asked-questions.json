@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_frequently_asked_questions_frequently_asked_questions",
+  "info": {
+    "displayName": "Frequently asked questions"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "globe",
+        "ship",
+        "stars",
+        "diamond"
+      ],
+      "required": true
+    },
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_stats_stats",
+  "info": {
+    "displayName": "Stats"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "integer",
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "clock",
+        "shield",
+        "globe"
+      ],
+      "required": true
+    }
+  }
+}

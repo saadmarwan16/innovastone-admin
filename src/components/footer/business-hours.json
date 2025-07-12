@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_footer_business_hours",
+  "info": {
+    "displayName": "Business hours"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

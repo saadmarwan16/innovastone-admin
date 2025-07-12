@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_categories_features",
+  "info": {
+    "displayName": "Features"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "globe",
+        "layers",
+        "diamond",
+        "shield",
+        "gem",
+        "hammer",
+        "star",
+        "sparkles"
+      ],
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

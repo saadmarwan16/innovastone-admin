@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.info"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.contact"
+    },
+    "business_hours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.business-hours"
+    }
+  }
+}

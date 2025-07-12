@@ -1,12 +1,12 @@
 [phases.install]
-cmds = ['yarn install']
+cmds = ['npm install']
 
 [phases.build]
-cmds = ['yarn build']
+cmds = ['npm build']
 
 [variables]
 NODE_ENV = 'production'
 NIXPACKS_NODE_VERSION = '20'
 
 [start]
-cmd = 'yarn start'
+cmd = 'npm start'
